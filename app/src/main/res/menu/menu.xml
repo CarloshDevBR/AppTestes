@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/item_01"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Item 01" />
+
+    <item
+        android:id="@+id/item_02"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Item 02" />
+
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="Cast"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        app:showAsAction="always"
+        tools:icon="@drawable/baseline_lightbulb_outline_24" />
+</menu>
