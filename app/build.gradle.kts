@@ -55,6 +55,7 @@ dependencies {
 
     // Fragment
     implementation("androidx.fragment:fragment-ktx:1.5.7")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
 
     // Room
     val roomVersion = "2.6.1"
