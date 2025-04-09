@@ -13,16 +13,16 @@
         android:theme="@style/Theme.AppTestes"
         tools:targetApi="31">
         <activity
-            android:name=".android.fragment.FragmentsActivity"
+            android:name=".android.ui.fragment.FragmentsActivity"
             android:exported="false" />
         <activity
-            android:name=".android.componentsxml.ComponentsXmlActivity"
+            android:name=".android.ui.componentsxml.ComponentsXmlActivity"
             android:exported="false" />
         <activity
-            android:name=".android.toolbar.ToolbarActivity"
+            android:name=".android.ui.toolbar.ToolbarActivity"
             android:exported="false" />
         <activity
-            android:name=".android.actionbar.ActionBarActivity"
+            android:name=".android.ui.actionbar.ActionBarActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".android.recyclerview.RecyclerViewActivity"
+            android:name=".android.ui.recyclerview.RecyclerViewActivity"
             android:exported="false" />
         <activity
             android:name=".coroutine.CoroutineActivity"
