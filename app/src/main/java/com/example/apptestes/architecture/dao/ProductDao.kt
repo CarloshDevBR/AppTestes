@@ -1,9 +1,10 @@
-package com.example.apptestes.architecture.repositorypattern
+package com.example.apptestes.architecture.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
+import com.example.apptestes.architecture.repositorypattern.ProductModel
 
 // DAO - Data Access Object
 /*

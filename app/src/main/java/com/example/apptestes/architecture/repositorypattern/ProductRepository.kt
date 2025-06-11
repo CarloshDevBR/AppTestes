@@ -1,5 +1,7 @@
 package com.example.apptestes.architecture.repositorypattern
 
+import com.example.apptestes.architecture.dao.ProductDao
+
 // Repository Pattern
 /*
     Camada intermediária entre a lógica de negócios (UseCase ou ViewModel)
