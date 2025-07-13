@@ -34,16 +34,34 @@
             android:name=".android.ui.recyclerview.RecyclerViewActivity"
             android:exported="false" />
         <activity
-            android:name=".coroutine.CoroutineActivity"
+            android:name=".android.coroutine.CoroutineActivity"
             android:exported="false"
             android:theme="@style/Theme.AppTestes" />
         <activity
-            android:name=".threads.ThreadsActivity"
+            android:name=".android.threads.ThreadsActivity"
             android:exported="false"
             android:theme="@style/Theme.AppTestes" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-    </application>
+        <activity
+            android:name=".android.deeplink.DeepLinkActivity"
+            android:exported="true">
 
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Scheme: protocolo http ou https -->
+                <!-- Host: dominio ou custom host -->
+                <!-- pathPrefix: o caminho de URL que vai disparar essa Activity -->
+                <data
+                    android:host="www.google.com"
+                    android:pathPrefix="/detail"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
